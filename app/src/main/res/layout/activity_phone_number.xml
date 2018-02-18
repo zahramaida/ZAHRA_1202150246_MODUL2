@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.zahra_1202150246_modul2.PhoneNumber">
+
+
+    <TextView
+        android:id="@+id/phone_number_intro_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="@dimen/intro_text_size"
+        android:text="@string/enter_phone_address"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop= "@dimen/vertical_margin"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_marginBottom="@dimen/space"
+            android:hint="@string/hint_name" />
+
+        <EditText
+            android:id="@+id/editText_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:layout_below="@id/editText_nama"
+            android:layout_marginBottom="@dimen/space"
+            android:hint="@string/hint_phonenumber" />
+
+        <EditText
+            android:id="@+id/editText_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:layout_below="@id/editText_main"
+            android:hint="@string/enter_your_address" />
+
+        <Button
+            android:id="@+id/button_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText_second"
+            android:layout_alignLeft="@id/editText_second"
+            android:layout_marginTop="@dimen/space"
+            android:layout_marginLeft="@dimen/jarak"
+            android:onClick="showText"
+            android:text="@string/show_button" />
+
+        <Button
+            android:id="@+id/button_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button_main"
+            android:layout_alignBottom="@+id/button_main"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:onClick="next"
+            android:text="@string/button_next">
+        </Button>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/title_namelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="@string/name_label"/>
+
+        <TextView
+            android:id="@+id/pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/jarak"
+            android:layout_marginRight="@dimen/jarak"
+            android:textSize="@dimen/textSize"
+            android:text="@string/pager"/>
+
+        <TextView
+            android:id="@+id/title_phonelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="@string/phonenumber_label"/>
+
+        <TextView
+            android:id="@+id/pager2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/jarak"
+            android:layout_marginRight="@dimen/jarak"
+            android:textSize="@dimen/textSize"
+            android:text="@string/pager"/>
+
+        <TextView
+            android:id="@+id/text_phonelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:text="@string/address_label"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

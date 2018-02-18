@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">ZAHRA_1202150246_MODUL2</string>
+
+    //MainActivity
+    <string name="choose_order_method">Choose your order method:</string>
+    <string name="take_away">Take Away</string>
+    <string name="dine_in">Dine In</string>
+    <string name="dine_in_messenger_service">Dine In</string>
+    <string name="take_away_messenger_service">Take Away</string>
+    <string name="chosen">You Choose: </string>
+    <string name="nothing_clicked">onRadioButtonClicked: Nothing clicked.</string>
+
+
+    //SplashScreen
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/fwc_concept</item>
+    </style>
+
+    //TableNumber
+    <string-array name="labels_array">
+        <item>Choose</item>
+        <item>Table 1</item>
+        <item>Table 2</item>
+        <item>Table 3</item>
+        <item>Table 4</item>
+        <item>Table 5</item>
+        <item>Table 6</item>
+        <item>Table 7</item>
+        <item>Table 8</item>
+        <item>Table 9</item>
+        <item>Table 10</item>
+    </string-array>
+    <string name="tablenumber_label">You Choose: </string>
+    <string name="show_button">Show</string>
+
+    //PhoneNumber
+    <string name="address_label">Address</string>
+    <string name="phonenumber_label">Phone Number</string>
+    <string-array name="labels_phone_array">
+        <item>Home</item>
+        <item>Mobile</item>
+    </string-array>
+    <string name="spinner_work">Home</string>
+    <string name="hint_phonenumber">Enter phone number</string>
+    <string name="enter_phone_address">Enter your Identity</string>
+    <string name="enter_your_address">Enter your Address</string>
+    <string name="pager"> // </string>
+    <string name="nothing_entered">Nothing Entered.</string>
+    <string name="nothing_selected">Nothing Selected.</string>
+    <string name="next_button">Next</string>
+    <string name="hint_name">Enter your Name</string>
+    <string name="name_label">Name</string>
+    <string name="choose_menu">Choose Menu</string>
+    <string name="detail_customer">Detail Customer:</string>
+    <string name="choose_table_number">Choose Table Number:</string>
+    <string name="tb_number_label">Table Number:</string>
+
+    //DateTimPickerString
+    <string name="choose_datetime">Choose the date and time: </string>
+    <string name="date_button">Date</string>
+    <string name="time_button">Time</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">"Date: "</string>
+    <string name="time">"Time: "</string>
+    <string name="choose_your_menu">Choose your Menu: </string>
+    <string name="choose_button">Choose</string>
+    <string name="time_label">Time: </string>
+    <string name="date_label">Date:</string>
+    <string name="name">Name</string>
+    <string name="button_next">Next</string>
+    <string name="Menu1">Fish n Chips</string>
+    <string name="Menu2">Fish n Chips with Spaghetti</string>
+    <string name="Menu3">Fish n Chips with Briyani Rice</string>
+    <string name="Menu4">Mac n Cheese with French Fries</string>
+    <string name="Menu5">Combo Platter</string>
+
+
+    //RecyclerView
+
+
+    <string name="toast">ZAHRA_1202150246</string>
+</resources>
